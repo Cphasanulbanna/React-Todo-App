@@ -1,0 +1,151 @@
+.main-container {
+    background: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.main-container .shadow-box {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    width: 510px;
+    height: 600px;
+    position: relative;
+}
+.main-container .shadow-box .todo-main-box {
+    width: 510px;
+    height: 600px;
+    background: #152431;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 10;
+    right: 20px;
+    bottom: 20px;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.main-container .shadow-box .todo-main-box .heading {
+    font-size: 36px;
+    color: #8fa8c1;
+    font-weight: 700;
+    text-align: center;
+}
+.main-container .shadow-box .todo-main-box .top-box {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.main-container .shadow-box .todo-main-box .top-box input {
+    border: 1px solid rgba(143, 168, 193, 0.5);
+    border-radius: 4px;
+    height: 40px;
+    background: #152431;
+
+    padding: 0 10px;
+    color: #8fa8c1;
+    flex-grow: 1;
+}
+
+.main-container .shadow-box .todo-main-box .top-box button.add {
+    height: 40px;
+    background: #0c5488;
+    border-radius: 4px;
+    color: #8fa8c1;
+    font-weight: 500;
+    padding: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+}
+.main-container .shadow-box .todo-main-box .bottom {
+}
+
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container {
+    display: flex;
+    flex-direction: column;
+}
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 35px;
+    border-bottom: 1px dashed rgba(143, 168, 193, 0.3);
+}
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo .left {
+}
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo .left .task {
+    color: #8fa8c1;
+    font-weight: 500;
+}
+
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo .left .task.active {
+    text-decoration: line-through;
+}
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo .right {
+    display: flex;
+    align-items: center;
+}
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo .right .edit {
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo .right .delete {
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container .edit-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 35px;
+    border-bottom: 1px dashed rgba(143, 168, 193, 0.3);
+}
+
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container .edit-box .edit {
+    flex-grow: 1;
+    border: 1px solid rgba(143, 168, 193, 0.5);
+    border-radius: 4px;
+    height: 40px;
+    background: #152431;
+    padding: 0 10px;
+    color: #8fa8c1;
+    margin-right: 10px;
+}
+
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container .edit-box .save {
+    height: 40px;
+    background: #0c5488;
+    border-radius: 4px;
+    color: #8fa8c1;
+    font-weight: 500;
+    padding: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.main-container .shadow-box .todo-main-box .bottom .all-todo-container .edit-box .cancel {
+    height: 40px;
+    background: #8fa8c1;
+    border-radius: 4px;
+    color: #0c5488;
+    font-weight: 500;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* .main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo  
+    .main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo  
+    .main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo  
+    .main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo  
+    .main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo  
+    .main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo  
+    .main-container .shadow-box .todo-main-box .bottom .all-todo-container .todo   */
